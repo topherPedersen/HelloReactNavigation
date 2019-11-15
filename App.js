@@ -16,7 +16,7 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-// import { NavigationNativeContainer } from '@react-navigation/native';
+import { NavigationNativeContainer } from '@react-navigation/native';
 
 class App extends React.Component {
   constructor(props) {
@@ -24,14 +24,11 @@ class App extends React.Component {
   }
 
   render() {
-    /*
     return(
       <NavigationNativeContainer>
-        <Text>Hello, React Navigator!</Text>
+        <Button title="hello?"/>
       </NavigationNativeContainer>
     );
-    */
-    return(<View><Button title="hello?"/></View>);
   }
 }
 
